@@ -8,10 +8,10 @@
     <script src="Scripts/angular.min.js"></script>
     <script src="Angular1.js"></script>
 </head>
-<body>
+<body ng-app ="myApp">
     <form id="form1" runat="server">
-        <div>
-
+        <div ng-controller ="myController">
+            {{  name }}
         </div>
     </form>
 </body>
